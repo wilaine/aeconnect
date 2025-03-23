@@ -4508,8 +4508,8 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-clients {
     background-color: var(--color-bg);
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    padding-top: calc(3 * var(--space));
+    padding-bottom: 2rem;
     position: relative;
 }
 
@@ -4554,7 +4554,7 @@ html.no-csstransitions .s-hero__content {
 .testimonials {
     background-color: var(--color-bg);
     max-width: 800px;
-    padding-top: var(--vspace-4);
+    padding-top: 2rem;
     padding-bottom: var(--vspace-1_5);
     text-align: center;
 }
