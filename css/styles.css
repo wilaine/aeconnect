@@ -4083,7 +4083,6 @@ html.no-csstransitions .s-hero__content {
 .s-about__process {
     counter-reset: ctr;
     padding-top: 7rem;
-    text-align: justify;
 }
 
 .s-about__process h3 {
@@ -4115,9 +4114,10 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__process .item-process p {
-    font-size: var(--text-sm); /* or use a fixed value like 0.9rem */
+    font-size: var(--text-size); /* or use a fixed value like 0.9rem */
     line-height: 1.6;
     color: var(--color-text-light); /* optional: improve readability */
+    text-align: justify;
   }
 
 /* ------------------------------------------------------------------- 
@@ -4197,6 +4197,13 @@ html.no-csstransitions .s-hero__content {
 .s-services .item-service {
     margin-bottom: 0;
 }
+
+.s-services .item-service p {
+    font-size: var(--text-size); /* or use a fixed value like 0.9rem */
+    line-height: 1.6;
+    color: var(--color-text-light); /* optional: improve readability */
+    text-align: justify;
+  }
 
 .service-icon {
     display: block;
@@ -4809,7 +4816,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-footer {
     padding-top: var(--vspace-2);
-    padding-bottom: var(--vspace-4);
+    padding-bottom: var(--vspace-2);
     color: white;
 }
 
