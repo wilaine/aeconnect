@@ -3117,12 +3117,12 @@ input::-moz-focus-inner {
     margin: 0;
     padding: 0;
     -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-35%);
     -webkit-transition: all .5s;
     transition: all .5s;
     position: absolute;
-    left: 2rem;
-    top: calc(50% - 2px);
+    left: 1rem;
+    top: calc(50% - 4px);
 }
 
 .s-header__logo a {
