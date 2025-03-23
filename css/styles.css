@@ -3158,17 +3158,18 @@ input::-moz-focus-inner {
     list-style: none;
     font-family: var(--font-2);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 6rem;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
+    padding-left: 2.5rem;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: .4em;
 }
 
 .s-header__nav a {
-    color: var(--color-gray-8);
+    color: var(--color-gray-7);
 }
 
 .s-header__nav a:hover, .s-header__nav a:focus {
