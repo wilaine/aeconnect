@@ -3141,8 +3141,8 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 130px;
-    height: 36.114px;
+    width: 150px;
+    height: 41.67px;
     margin-bottom: 0;
 }
 
@@ -3162,7 +3162,7 @@ input::-moz-focus-inner {
     line-height: 6rem;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
-    padding-left: 2.5rem;
+    padding-left: 3rem;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: .4em;
