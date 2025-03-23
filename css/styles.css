@@ -2946,7 +2946,7 @@ input::-moz-focus-inner {
  * ## item list 
  * ------------------------------------------------------------------- */
 .item-list {
-    margin-top: var(--vspace-2_5);
+    margin-top: /*var(--vspace-2_5);*/
 }
 .item-list .item {
     padding-right: 8.6rem;
@@ -4170,7 +4170,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-services {
     background-color: var(--color-bg);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(2 * var(--space));
     padding-bottom: var(--vspace-2);
 }
 
@@ -4275,7 +4275,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-bg);
-    padding-top: calc(7 * var(--space));
+    padding-top: calc(2 * var(--space));
     padding-bottom: 0;
 }
 
@@ -4733,7 +4733,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: var(--color-1);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(3 * var(--space));
     padding-bottom: var(--vspace-2);
 }
 
