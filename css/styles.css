@@ -1691,6 +1691,7 @@ h6, .h6 {
     font-weight: 400;
     font-size: var(--text-md);
     line-height: calc(1.125 * var(--space));
+    text-align: justify;
 }
 
 @media screen and (max-width: 400px) {
@@ -2930,6 +2931,13 @@ input::-moz-focus-inner {
     font-weight: 500;
     line-height: var(--vspace-1_75);
     margin-top: 0;
+    text-align: justify;
+}
+.display-2 {
+    font-size: var(--text-xl);
+    font-weight: 500;
+    line-height: var(--vspace-1_75);
+    margin-top: 0;
 }
 
 .item-title {
@@ -4074,6 +4082,8 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-about__process {
     counter-reset: ctr;
+    padding-top: 7rem;
+    text-align: justify;
 }
 
 .s-about__process h3 {
@@ -4104,6 +4114,11 @@ html.no-csstransitions .s-hero__content {
     position: relative;
 }
 
+.s-about__process .item-process p {
+    font-size: var(--text-sm); /* or use a fixed value like 0.9rem */
+    line-height: 1.6;
+    color: var(--color-text-light); /* optional: improve readability */
+  }
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -4176,6 +4191,7 @@ html.no-csstransitions .s-hero__content {
 
 .s-services .lead {
     margin-top: var(--vspace-0_25);
+    text-align: justify;
 }
 
 .s-services .item-service {
@@ -4604,6 +4620,7 @@ html.no-csstransitions .s-hero__content {
     font-size: var(--text-lg);
     line-height: 1.852;
     color: white;
+    text-align: justify;
 }
 
 .testimonial-slider__slide {
@@ -4612,11 +4629,10 @@ html.no-csstransitions .s-hero__content {
 }
 
 .testimonial-slider__author {
-    display: inline-block;
-    min-height: 7.2rem;
+    display: block;
+    text-align: center;
+    padding-left: 0;            /* Remove manual shift */
     margin-top: var(--vspace-1);
-    padding-left: 8.4rem;
-    text-align: left;
     position: relative;
 }
 
@@ -4824,17 +4840,20 @@ html.no-csstransitions .s-hero__content {
     line-height: var(--vspace-1);
     padding-top: var(--vspace-1_75);
     position: relative;
+    align-items: center;
+    text-align: center;
 }
 
 .s-footer__block--end::before {
     display: block;
     content: "";
     height: 1px;
-    width: 33.333%;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: var(--vspace-0_25);
-    left: var(--gutter-lg);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .s-footer__block--end .btn {
@@ -4873,6 +4892,8 @@ html.no-csstransitions .s-hero__content {
     font-size: 1.5rem;
     font-weight: 300;
     position: relative;
+    align-items: center;
+    text-align: center;
 }
 
 .ss-copyright a {
