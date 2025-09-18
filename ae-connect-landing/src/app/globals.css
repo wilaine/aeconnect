@@ -8,20 +8,29 @@
   --color-card-foreground: #f8fafc;
   --color-popover: #1e293b;
   --color-popover-foreground: #f8fafc;
-  --color-primary: #e11d48;
+  --color-primary: #d9083c;
   --color-primary-foreground: #f8fafc;
   --color-secondary: #334155;
   --color-secondary-foreground: #f8fafc;
   --color-muted: #475569;
   --color-muted-foreground: #94a3b8;
-  --color-accent: #e11d48;
+  --color-accent: #d9083c;
   --color-accent-foreground: #f8fafc;
   --color-destructive: #ef4444;
   --color-destructive-foreground: #f8fafc;
   --color-border: #334155;
   --color-input: #334155;
-  --color-ring: #e11d48;
+  --color-ring: #d9083c;
   --radius: 0.75rem;
+  
+  /* Original color palette from backup */
+  --color-1: #d9083c;
+  --color-2: #eb5e55;
+  --color-3: #f2d0a4;
+  --color-1-lighter: #e43c66;
+  --color-1-light: #de1f4d;
+  --color-1-dark: #a8062c;
+  --color-1-darker: #77041f;
 }
 
 /* Base styles */

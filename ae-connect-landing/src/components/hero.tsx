@@ -21,7 +21,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <Badge variant="secondary" className="px-4 py-2 text-sm font-medium bg-rose-500/20 text-rose-300 border-rose-500/30">
+            <Badge variant="secondary" className="px-4 py-2 text-sm font-medium" style={{backgroundColor: 'rgba(217, 8, 60, 0.2)', color: '#eb5e55', borderColor: 'rgba(217, 8, 60, 0.3)'}}>
               🚀 Your B2B Sales Partner
             </Badge>
           </motion.div>
@@ -35,7 +35,7 @@ export function Hero() {
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white">
               <span className="block">Unlock More</span>
-              <span className="block bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
+              <span className="block" style={{background: 'linear-gradient(to right, #d9083c, #eb5e55)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
                 Sales Opportunities
               </span>
               <span className="block">on Demand</span>
@@ -69,7 +69,7 @@ export function Hero() {
               <span className="text-slate-300">Zero Delays</span>
             </div>
             <div className="flex items-center space-x-2 bg-slate-800/80 backdrop-blur px-4 py-2 rounded-full border border-slate-600">
-              <span className="w-2 h-2 bg-rose-400 rounded-full"></span>
+              <span className="w-2 h-2 rounded-full" style={{backgroundColor: '#d9083c'}}></span>
               <span className="text-slate-300">Rapid Growth</span>
             </div>
           </motion.div>
@@ -81,7 +81,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button asChild size="lg" className="text-lg px-8 py-6 h-auto bg-rose-500 hover:bg-rose-600 text-white">
+            <Button asChild size="lg" className="text-lg px-8 py-6 h-auto text-white hover:opacity-90" style={{backgroundColor: '#d9083c'}}>
               <Link href="#contact" className="flex items-center space-x-2">
                 <span>Book a Call</span>
                 <ArrowRight className="w-5 h-5" />

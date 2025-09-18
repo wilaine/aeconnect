@@ -29,7 +29,7 @@ export function Navbar() {
     )}>
       <div className="container flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
+          <span className="text-2xl font-bold" style={{background: 'linear-gradient(to right, #d9083c, #eb5e55)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
             {siteConfig.name}
           </span>
         </Link>
@@ -40,7 +40,7 @@ export function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-slate-300 transition-colors hover:text-rose-400"
+              className="text-sm font-medium text-slate-300 transition-colors" onMouseEnter={(e) => e.currentTarget.style.color = '#d9083c'} onMouseLeave={(e) => e.currentTarget.style.color = '#cbd5e1'}
             >
               {item.title}
             </Link>
@@ -48,7 +48,7 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <Button asChild size="sm" className="hidden md:inline-flex bg-rose-500 hover:bg-rose-600 text-white">
+          <Button asChild size="sm" className="hidden md:inline-flex text-white hover:opacity-90" style={{backgroundColor: '#d9083c'}}>
             <Link href={siteConfig.links.email}>Contact</Link>
           </Button>
           <Button asChild size="sm" variant="outline" className="hidden md:inline-flex border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white">
