@@ -14,8 +14,8 @@ const nextConfig: NextConfig = {
   
   // Configure base path and asset prefix if not username.github.io
   // Uncomment and modify these lines based on your repository name:
-  basePath: '/aeconnect',
-  assetPrefix: '/aeconnect/',
+  basePath: '/aeconnect/ae-connect-landing',
+  assetPrefix: '/aeconnect/ae-connect-landing/',
   
   // Ensure compatibility with static export
   distDir: 'out',
