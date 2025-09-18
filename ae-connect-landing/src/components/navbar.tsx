@@ -24,12 +24,12 @@ export function Navbar() {
     <header className={cn(
       "sticky top-0 z-50 w-full border-b transition-all duration-300",
       isScrolled 
-        ? "bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-slate-200" 
-        : "bg-white border-slate-200"
+        ? "bg-slate-900/95 backdrop-blur supports-[backdrop-filter]:bg-slate-900/60 border-slate-700" 
+        : "bg-slate-900 border-slate-700"
     )}>
       <div className="container flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
+          <span className="text-2xl font-bold" style={{background: 'linear-gradient(to right, #d9083c, #eb5e55)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
             {siteConfig.name}
           </span>
         </Link>
@@ -40,7 +40,7 @@ export function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900"
+              className="text-sm font-medium text-slate-300 transition-colors" onMouseEnter={(e) => e.currentTarget.style.color = '#d9083c'} onMouseLeave={(e) => e.currentTarget.style.color = '#cbd5e1'}
             >
               {item.title}
             </Link>
@@ -48,10 +48,10 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <Button asChild size="sm" className="hidden md:inline-flex">
+          <Button asChild size="sm" className="hidden md:inline-flex text-white hover:opacity-90" style={{backgroundColor: '#d9083c'}}>
             <Link href={siteConfig.links.email}>Contact</Link>
           </Button>
-          <Button asChild size="sm" variant="outline" className="hidden md:inline-flex">
+          <Button asChild size="sm" variant="outline" className="hidden md:inline-flex border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white">
             <Link href="#contact">Book a Call</Link>
           </Button>
 

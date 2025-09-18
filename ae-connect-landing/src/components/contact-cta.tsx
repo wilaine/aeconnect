@@ -27,7 +27,7 @@ export function ContactCTA() {
             
             <h2 className="text-4xl md:text-6xl font-bold text-white leading-tight">
               Ambitious goals deserve{" "}
-              <span className="bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent">
+              <span style={{background: 'linear-gradient(to right, #d9083c, #eb5e55)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
                 bold execution
               </span>
             </h2>
@@ -48,7 +48,7 @@ export function ContactCTA() {
             >
               <Card className="bg-white/10 backdrop-blur border-white/20 hover:bg-white/15 transition-all duration-300 group cursor-pointer">
                 <CardContent className="p-8 text-center">
-                  <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-sky-400 to-indigo-500 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-16 h-16 mx-auto mb-6 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300" style={{background: 'linear-gradient(135deg, rgba(217, 8, 60, 0.9), rgba(235, 94, 85, 0.9))'}}>
                     <Mail className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-4">Email Us</h3>
