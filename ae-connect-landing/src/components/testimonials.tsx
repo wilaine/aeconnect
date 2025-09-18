@@ -155,7 +155,7 @@ export function Testimonials() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
           >
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-sky-600 mb-2">6+</div>
+              <div className="text-3xl md:text-4xl font-bold text-sky-600 mb-2">15+</div>
               <div className="text-lg font-semibold mb-1">Happy Clients</div>
               <div className="text-slate-500">Across multiple industries</div>
             </div>
