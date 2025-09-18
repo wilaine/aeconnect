@@ -13,9 +13,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   
   // Configure base path and asset prefix for GitHub Pages
-  // Repository name: aeconnect
-  basePath: '/aeconnect',
-  assetPrefix: '/aeconnect/',
+  // For custom domains, these should be commented out
+  // basePath: '/aeconnect',
+  // assetPrefix: '/aeconnect/',
   
   // Ensure compatibility with static export
   distDir: 'out',
