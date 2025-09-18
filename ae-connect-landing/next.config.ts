@@ -12,10 +12,10 @@ const nextConfig: NextConfig = {
   // Enable trailing slash to avoid 404 on GitHub Pages
   trailingSlash: true,
   
-  // Configure base path and asset prefix if not username.github.io
-  // Uncomment and modify these lines based on your repository name:
-  basePath: '/aeconnect/ae-connect-landing',
-  assetPrefix: '/aeconnect/ae-connect-landing/',
+  // Configure base path and asset prefix for GitHub Pages
+  // Repository name: aeconnect
+  basePath: '/aeconnect',
+  assetPrefix: '/aeconnect/',
   
   // Ensure compatibility with static export
   distDir: 'out',
