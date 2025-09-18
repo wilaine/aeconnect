@@ -33,7 +33,7 @@ const itemVariants = {
 
 export function About() {
   return (
-    <section id="about" className="py-24 bg-white">
+    <section id="about" className="py-24 bg-slate-50">
       <div className="container max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -50,7 +50,7 @@ export function About() {
               </Badge>
               <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
                 Tailored Outreach,{" "}
-                <span className="bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
+                <span style={{background: 'linear-gradient(to right, #d9083c, #eb5e55)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
                   Maximum Impact
                 </span>
               </h2>
