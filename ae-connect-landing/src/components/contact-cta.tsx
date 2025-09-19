@@ -56,7 +56,7 @@ export function ContactCTA() {
                     Drop us a line and we'll get back to you within 24 hours with a tailored solution.
                   </p>
                   <Button asChild size="lg" className="w-full bg-white text-slate-900 hover:bg-slate-100">
-                    <Link href={siteConfig.links.email} className="flex items-center justify-center space-x-2">
+                    <Link href={`mailto:${siteConfig.email}?subject=Interested in Your Services&body=Hi AE Connect,%0D%0AI'm interested in your services—can we set up a quick call?`} className="flex items-center justify-center space-x-2">
                       <span>{siteConfig.email}</span>
                       <ArrowRight className="w-4 h-4" />
                     </Link>
@@ -80,8 +80,8 @@ export function ContactCTA() {
                   <p className="text-white/90 mb-6 leading-relaxed">
                     Schedule a 30-minute strategy session to discuss your specific needs and goals.
                   </p>
-                  <Button size="lg" variant="secondary" className="w-full bg-white text-slate-900 hover:bg-slate-100">
-                    <Link href="#calendly" className="flex items-center justify-center space-x-2">
+                  <Button asChild size="lg" variant="secondary" className="w-full bg-white text-slate-900 hover:bg-slate-100">
+                    <Link href="https://calendly.com/elaine-aeconnect/discussion" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2">
                       <span>Schedule Now</span>
                       <ArrowRight className="w-4 h-4" />
                     </Link>
