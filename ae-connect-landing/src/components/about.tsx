@@ -72,9 +72,9 @@ export function About() {
               variants={item}
               className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed"
             >
-              我们以<strong>3X 更快</strong>的节奏交付成果，并显著低于自建团队成本。
-              通过策略化、超个性化的触达，直接连到决策者，推动增长——
-              <strong>零管理成本，零等待</strong>。
+              We deliver results at <strong>3X the speed</strong> of in-house teams while keeping costs significantly lower.
+              Through strategic and hyper-personalized outreach, we connect directly with decision-makers—
+              <strong>zero overhead, zero waiting</strong>.
             </motion.p>
           </div>
 
