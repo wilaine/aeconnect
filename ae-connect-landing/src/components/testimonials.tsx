@@ -149,7 +149,7 @@ export function Testimonials() {
             className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center"
           >
             <div>
-              <div className="text-3xl md:text-4xl font-bold mb-2" style={{ color: "#eb5e55" }}>6+</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2" style={{ color: "#eb5e55" }}>15+</div>
               <div className="text-lg font-semibold text-white mb-1">Happy Clients</div>
               <div className="text-slate-400">Across multiple industries</div>
             </div>
