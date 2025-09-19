@@ -29,7 +29,7 @@ export function Footer() {
               Don't let revenue growth barriers hold you back. 
               Let's discuss how we can accelerate your sales pipeline.
             </p>
-            <Button asChild size="lg" className="bg-sky-500 hover:bg-sky-600">
+            <Button asChild size="lg" className="bg-red-500 hover:bg-red-600">
               <Link href={siteConfig.links.email} className="inline-flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
                 <span>Get in Touch</span>
@@ -44,7 +44,7 @@ export function Footer() {
             {/* Company Info */}
             <div className="space-y-4">
               <Link href="/" className="inline-block">
-                <span className="text-2xl font-bold bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent">
+                <span className="text-2xl font-bold" style={{background: 'linear-gradient(to right, #d9083c, #eb5e55)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
                   {siteConfig.name}
                 </span>
               </Link>
