@@ -34,7 +34,7 @@ export function Testimonials() {
   }
 
   return (
-    <section id="testimonials" className="relative py-24 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-black">
+    <section id="testimonials" className="relative py-20 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-black">
       {/* 背景网格 */}
       <div className="absolute inset-0 bg-grid-slate-700/30 opacity-50" />
       <div className="relative container max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -42,7 +42,7 @@ export function Testimonials() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
-          className="space-y-16"
+          className="space-y-8"
         >
           {/* Section Header */}
           <div className="text-center space-y-4">
@@ -146,7 +146,7 @@ export function Testimonials() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center"
           >
             <div>
               <div className="text-3xl md:text-4xl font-bold mb-2" style={{ color: "#eb5e55" }}>6+</div>

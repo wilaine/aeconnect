@@ -6,10 +6,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { siteConfig } from "@/config/site"
 
-const iconMap = { 
+const iconMap = {
   Calendar,
-  Target, 
-  Handshake, 
+  Target,
+  Handshake,
 }
 
 const container = {
@@ -33,7 +33,7 @@ const item = {
 
 export function About() {
   return (
-    <section id="about" className="relative py-24 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-black">
+    <section id="about" className="relative py-20 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-black">
       {/* 背景网格 */}
       <div className="absolute inset-0 bg-grid-slate-700/30 opacity-50" />
       <div className="relative container max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -42,7 +42,7 @@ export function About() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={container}
-          className="space-y-16"
+          className="space-y-8"
         >
           {/* Section Header */}
           <div className="text-center space-y-4">
@@ -79,8 +79,11 @@ export function About() {
           </div>
 
           {/* Services Grid */}
-          <motion.div variants={container} className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {siteConfig.services.map((service) => {
+          <motion.div
+            variants={container}
+            className="grid grid-cols-1 md:grid-cols-3 gap-6"
+          >
+            {siteConfig.services.map((service, index) => {
               const Icon = iconMap[service.icon as keyof typeof iconMap]
               return (
                 <motion.div key={service.title} variants={item}>
@@ -108,7 +111,7 @@ export function About() {
             variants={item}
             className="rounded-3xl p-8 md:p-12 border border-slate-700/60 bg-slate-900/60 backdrop-blur-md"
           >
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-4xl md:text-5xl font-bold mb-2" style={{ color: "#eb5e55" }}>3X</div>
                 <div className="text-lg font-semibold text-white mb-1">Faster Results</div>

@@ -23,7 +23,7 @@ const item = {
 
 export function Challenges() {
   return (
-    <section id="challenges" className="relative py-24 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-black">
+    <section id="challenges" className="relative py-20 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-black">
       {/* 背景网格 */}
       <div className="absolute inset-0 bg-grid-slate-700/30 opacity-50" />
       <div className="relative container max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -32,7 +32,7 @@ export function Challenges() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={container}
-          className="space-y-16"
+          className="space-y-8"
         >
           {/* Section Header */}
           <div className="text-center space-y-4">
@@ -61,7 +61,7 @@ export function Challenges() {
 
           </div>
 
-          {/* Challenges Grid */}
+        {/* Challenges Grid */}
           <motion.div variants={container} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {siteConfig.challenges.slice(0, 3).map((c) => {
               const Icon = iconMap[c.icon as keyof typeof iconMap]
