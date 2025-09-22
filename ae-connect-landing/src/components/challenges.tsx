@@ -123,7 +123,7 @@ export function Challenges() {
             </p>
             <div className="inline-flex items-center space-x-2 rounded-full px-6 py-3"
                  style={{ backgroundColor: "rgba(217, 8, 60, 0.18)", border: "1px solid rgba(217, 8, 60, 0.3)" }}>
-              <span className="text-lg font-semibold" style={{ color: "#eb5e55" }}>Next: Testimonials</span>
+              <span className="text-lg font-semibold" style={{ color: "#eb5e55" }}>Next: What Our Clients Say</span>
               <span className="text-2xl">👇</span>
             </div>
           </motion.div>

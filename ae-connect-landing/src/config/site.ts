@@ -19,7 +19,7 @@ export const siteConfig = {
         href: "#challenges",
       },
       {
-        title: "Testimonials",
+        title: "What Our Clients Say",
         href: "#testimonials",
       },
     ],
