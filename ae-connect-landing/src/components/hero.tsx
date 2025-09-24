@@ -87,7 +87,7 @@ export function Hero() {
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6 h-auto border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white">
+            <Button asChild size="lg" variant="outline" className="text-lg px-8 py-6 h-auto border-slate-400 text-slate-100 hover:bg-slate-700 hover:text-white hover:border-slate-300">
               <Link href={siteConfig.links.email}>Email Us</Link>
             </Button>
           </motion.div>
