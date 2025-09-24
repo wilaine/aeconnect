@@ -51,7 +51,7 @@ export function Navbar() {
           <Button asChild size="sm" className="hidden md:inline-flex text-white hover:opacity-90" style={{backgroundColor: '#d9083c'}}>
             <Link href={siteConfig.links.email}>Contact</Link>
           </Button>
-          <Button asChild size="sm" variant="outline" className="hidden md:inline-flex border-slate-400 text-slate-100 hover:bg-slate-700 hover:text-white hover:border-slate-300">
+          <Button asChild size="sm" variant="outline" className="hidden md:inline-flex border-white text-white bg-white/20 hover:bg-white/20">
             <Link href="#contact">Book a Call</Link>
           </Button>
 
