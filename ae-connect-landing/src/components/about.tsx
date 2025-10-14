@@ -47,13 +47,15 @@ export function About() {
           {/* Section Header */}
           <div className="text-center space-y-4">
             <motion.div variants={item} className="space-y-4">
-              <Badge
-                variant="secondary"
-                className="px-4 py-2 font-medium"
-                style={{ backgroundColor: "rgba(217, 8, 60, 0.2)", color: "#eb5e55", borderColor: "rgba(217, 8, 60, 0.3)" }}
-              >
-                01 — What We Do
-              </Badge>
+              <div>
+                <Badge
+                  variant="secondary"
+                  className="px-4 py-2 font-medium"
+                  style={{ backgroundColor: "rgba(217, 8, 60, 0.2)", color: "#eb5e55", borderColor: "rgba(217, 8, 60, 0.3)" }}
+                >
+                  01 — What We Do
+                </Badge>
+              </div>
               <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white">
                 Tailored Outreach,{" "}
                 <span
