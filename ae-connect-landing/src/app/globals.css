@@ -31,6 +31,11 @@
   --color-1-light: #de1f4d;
   --color-1-dark: #a8062c;
   --color-1-darker: #77041f;
+  
+  /* Container configuration */
+  --container-center: true;
+  --container-padding: 1rem;
+  --breakpoint-2xl: 1280px;
 }
 
 /* Base styles */
@@ -48,6 +53,20 @@ body {
 
 * {
   border-color: var(--color-border);
+}
+
+/* Container centering */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
 }
 
 /* Custom animations */
