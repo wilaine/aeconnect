@@ -46,7 +46,7 @@ export function About() {
         >
           {/* Section Header */}
           <div className="text-center space-y-4">
-            <motion.div variants={item}>
+            <motion.div variants={item} className="space-y-4">
               <Badge
                 variant="secondary"
                 className="px-4 py-2 font-medium"
